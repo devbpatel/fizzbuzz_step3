@@ -23,12 +23,12 @@ public class FizzBuzz {
 
 	private void initializeStatisticsMap() {
 		// initialize stasticsMap with zero value entries and avoid null checking
-        stastics.clear();
-        stastics.put(FizzBuzzEnum.fizz.toString(), new AtomicInteger());
-        stastics.put(FizzBuzzEnum.buzz.toString(), new AtomicInteger());
-        stastics.put(FizzBuzzEnum.fizzbuzz.toString(), new AtomicInteger());
-        stastics.put(FizzBuzzEnum.lucky.toString(), new AtomicInteger());
-        stastics.put(FizzBuzzEnum.number.toString(), new AtomicInteger());
+		stastics.clear();
+		stastics.put(FizzBuzzEnum.fizz.toString(), new AtomicInteger());
+		stastics.put(FizzBuzzEnum.buzz.toString(), new AtomicInteger());
+		stastics.put(FizzBuzzEnum.fizzbuzz.toString(), new AtomicInteger());
+		stastics.put(FizzBuzzEnum.lucky.toString(), new AtomicInteger());
+		stastics.put(FizzBuzzEnum.number.toString(), new AtomicInteger());
 	}
 
 	public String getOutput(int number) {
